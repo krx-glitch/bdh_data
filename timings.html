@@ -3,18 +3,6 @@
 <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Class Timings | Bhopal Dance House</title>
-    <meta name="description" content="View Bhopal Dance House morning and evening batch timings for dance, yoga, Zumba and kids classes from Monday to Saturday."/>
-    <link rel="canonical" href="https://bhopaldancehouse.com/timings.html"/>
-    <meta property="og:title" content="Class Timings | Bhopal Dance House"/>
-    <meta property="og:description" content="View Bhopal Dance House morning and evening batch timings for dance, yoga, Zumba and kids classes from Monday to Saturday."/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://bhopaldancehouse.com/timings.html"/>
-    <meta property="og:image" content="https://bhopaldancehouse.com/logo.png"/>
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:title" content="Class Timings | Bhopal Dance House"/>
-    <meta name="twitter:description" content="View Bhopal Dance House morning and evening batch timings for dance, yoga, Zumba and kids classes from Monday to Saturday."/>
-    <meta name="twitter:image" content="https://bhopaldancehouse.com/logo.png"/>
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&amp;family=Inter:wght@400;600&amp;family=Montserrat:wght@600;700;800&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
@@ -81,78 +69,59 @@
               "full": "9999px"
             },
             "spacing": {
-              "unit": "8px",
               "gutter": "24px",
-              "margin-edge": "clamp(16px, 4vw, 32px)",
               "container-max": "1280px",
-              "section-gap": "clamp(60px, 10vw, 120px)"
+              "unit": "8px",
+              "margin-edge": "32px",
+              "section-gap": "120px"
             },
             "fontFamily": {
-              "h3": ["Montserrat"],
-              "label-caps": ["Montserrat"],
-              "h1": ["Syne"],
-              "body-md": ["Inter"],
+              "h2": ["Syne"],
               "body-lg": ["Inter"],
-              "h2": ["Syne"]
+              "h3": ["Montserrat"],
+              "h1": ["Syne"],
+              "label-caps": ["Montserrat"],
+              "body-md": ["Inter"]
             },
             "fontSize": {
-              "h3": ["clamp(24px, 3vw, 32px)", {"lineHeight": "1.2", "letterSpacing": "0.02em", "fontWeight": "700"}],
+              "h2": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+              "body-lg": ["18px", {"lineHeight": "1.6", "letterSpacing": "0", "fontWeight": "400"}],
+              "h3": ["32px", {"lineHeight": "1.2", "letterSpacing": "0.02em", "fontWeight": "700"}],
+              "h1": ["80px", {"lineHeight": "1.0", "letterSpacing": "-0.04em", "fontWeight": "800"}],
               "label-caps": ["12px", {"lineHeight": "1.0", "letterSpacing": "0.1em", "fontWeight": "600"}],
-              "h1": ["clamp(48px, 8vw, 80px)", {"lineHeight": "1.0", "letterSpacing": "-0.04em", "fontWeight": "800"}],
-              "body-md": ["16px", {"lineHeight": "1.5", "letterSpacing": "0", "fontWeight": "400"}],
-              "body-lg": ["clamp(16px, 2vw, 18px)", {"lineHeight": "1.6", "letterSpacing": "0", "fontWeight": "400"}],
-              "h2": ["clamp(32px, 5vw, 48px)", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+              "body-md": ["16px", {"lineHeight": "1.5", "letterSpacing": "0", "fontWeight": "400"}]
             }
-          }
-        }
+          },
+        },
       }
     </script>
-    <link rel="stylesheet" href="site.css?v=motion-graphics-3"/>
 </head>
 <body class="bg-background text-on-surface selection:bg-primary-container/30">
     <!-- TopNavBar -->
     <nav class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl border-b border-primary/10">
-        <div class="flex justify-between items-center px-margin-edge py-4 w-full max-w-container-max mx-auto relative z-[50]">
+        <div class="flex justify-between items-center px-margin-edge py-4 w-full max-w-container-max mx-auto">
             <a href="index.html" class="hover:scale-105 transition-transform duration-200 block flex items-center">
-                <img src="logo.webp" alt="Bhopal Dance House Logo" class="h-10 w-auto" width="512" height="362" decoding="async" />
+                <img src="logo.png" alt="Bhopal Dance House Logo" class="h-10 w-auto" />
             </a>
             <div class="hidden md:flex items-center gap-8">
                 <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="courses.html">Courses</a>
-                <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="about.html">Programs</a>
-                <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="instructors.html">Instructor</a>
+                <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="about.html">About</a>
+                <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="instructors.html">Instructors</a>
                 <a class="font-label-caps text-label-caps text-primary font-bold border-b-2 border-primary pb-1" href="timings.html">Timings</a>
                 <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="contact.html">Location</a>
             </div>
-            <button class="hidden md:block bg-primary-container text-on-primary-container px-6 py-2 rounded-full font-label-caps text-label-caps font-bold hover:scale-105 active:scale-95 transition-all kinetic-glow" onclick="window.location.href='admissions.html'">
+            <button class="bg-primary-container text-on-primary-container px-6 py-2 rounded-full font-label-caps text-label-caps font-bold hover:scale-105 active:scale-95 transition-all kinetic-glow" onclick="window.location.href='admissions.html'">
                 Join a Class
             </button>
-            <div class="flex items-center gap-4 md:hidden">
-        <button id="mobile-menu-btn" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu" class="text-primary hover:text-on-surface transition-colors p-2 z-[60]">
-            <span class="material-symbols-outlined text-4xl" aria-hidden="true">menu</span>
-        </button>
-    </div></div>
-<!-- Mobile Menu Overlay -->
-<div id="mobile-menu" class="fixed inset-0 bg-surface/95 backdrop-blur-xl z-[45] flex flex-col pt-24 px-margin-edge pb-8 transform translate-x-full transition-transform duration-300 md:hidden overflow-y-auto" aria-label="Mobile navigation">
-    <div class="flex flex-col gap-8 items-center text-center mt-8">
-        <a class="font-h3 text-h3 text-on-surface-variant hover:text-primary transition-colors" href="courses.html">Courses</a>
-<a class="font-h3 text-h3 text-on-surface-variant hover:text-primary transition-colors" href="about.html">Programs</a>
-<a class="font-h3 text-h3 text-on-surface-variant hover:text-primary transition-colors" href="instructors.html">Instructor</a>
-<a class="font-h3 text-h3 text-primary font-bold border-b-2 border-primary pb-1" href="timings.html">Timings</a>
-<a class="font-h3 text-h3 text-on-surface-variant hover:text-primary transition-colors" href="contact.html">Location</a>
-
-        <button class="bg-primary-container text-on-primary-container px-8 py-4 rounded-full font-h3 text-body-md w-full max-w-xs mt-8 shadow-lg shadow-primary/20 interactive-3d" onclick="window.location.href='admissions.html'">
-            Join a Class
-        </button>
-    </div>
-</div>
-</nav>
+        </div>
+    </nav>
 
     <main class="pt-24 overflow-x-hidden">
         <!-- Hero Section -->
         <section class="relative min-h-[400px] flex items-center px-margin-edge py-20">
             <div class="absolute inset-0 z-0">
                 <div class="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-transparent z-10"></div>
-                <img class="w-full h-full object-cover grayscale opacity-30" src="images/img1.jpg" alt="Studio Background" width="4608" height="3456" decoding="async"/>
+                <img class="w-full h-full object-cover grayscale opacity-30" src="images/img1.jpg" alt="Studio Background"/>
             </div>
             <div class="relative z-20 w-full max-w-container-max mx-auto">
                 <div class="max-w-2xl">
@@ -247,7 +216,7 @@
                         <button class="bg-primary text-on-primary px-8 py-4 rounded-full font-label-caps text-label-caps font-extrabold hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20" onclick="window.location.href='admissions.html'">
                             Book a Trial Class
                         </button>
-                        <a class="border border-secondary text-secondary px-8 py-4 rounded-full font-label-caps text-label-caps font-extrabold hover:bg-secondary/10 hover:scale-105 active:scale-95 transition-all" href="https://wa.me/919713632631" target="_blank" rel="noopener noreferrer">Message on WhatsApp</a>
+                        <button class="border border-secondary text-secondary px-8 py-4 rounded-full font-label-caps text-label-caps font-extrabold hover:bg-secondary/10 hover:scale-105 active:scale-95 transition-all" onclick="window.open('https://wa.me/919713632631', '_blank')">Message on WhatsApp</button>
                     </div>
                 </div>
             </div>
@@ -259,13 +228,13 @@
         <div class="flex flex-col md:flex-row justify-between items-start px-margin-edge gap-gutter w-full max-w-container-max mx-auto">
             <div class="max-w-xs">
                 <div class="font-h2 text-h3 text-primary mb-4">Bhopal Dance House</div>
-                <p class="font-body-md text-body-md text-on-surface-variant">© 2024 Bhopal Dance House. Move with Passion.</p>
+                <p class="font-body-md text-body-md text-on-surface-variant">Â© 2024 Bhopal Dance House. Move with Passion.</p>
             </div>
             <div class="grid grid-cols-2 gap-12">
                 <div class="flex flex-col gap-4">
                     <span class="font-label-caps text-label-caps text-secondary">Connect</span>
-                    <a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary-container transition-colors" href="https://www.instagram.com/bdh_sipa/" target="_blank" rel="noopener noreferrer">Instagram</a>
-                    <a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary-container transition-colors" href="https://youtube.com/@bhopaldancehouse?si=Y6HUEhLH0Mel_WRp" target="_blank" rel="noopener noreferrer">YouTube</a>
+                    <a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary-container transition-colors" href="https://www.instagram.com/bdh_sipa/" target="_blank">Instagram</a>
+                    <a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary-container transition-colors" href="https://youtube.com/@bhopaldancehouse?si=Y6HUEhLH0Mel_WRp" target="_blank">YouTube</a>
                 </div>
                 <div class="flex flex-col gap-4">
                     <span class="font-label-caps text-label-caps text-secondary">Studio</span>
@@ -276,7 +245,5 @@
             </div>
         </div>
     </footer>
-<script src="site.js?v=motion-graphics-3" defer></script>
 </body>
 </html>
-
