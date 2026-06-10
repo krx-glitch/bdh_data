@@ -528,3 +528,41 @@ textarea:focus-visible {
     transform: none !important;
   }
 }
+
+
+/* ========================================
+   MOBILE NAVIGATION FIXES
+   ======================================== */
+#mobile-menu {
+  visibility: hidden;
+}
+
+#mobile-menu:not(.translate-x-full) {
+  visibility: visible;
+}
+
+@media (max-width: 767px) {
+  nav,
+  header nav {
+    min-height: 72px;
+  }
+
+  .text-h1 {
+    font-size: clamp(42px, 13vw, 64px);
+    line-height: 0.98;
+  }
+
+  .text-h2 {
+    font-size: clamp(32px, 10vw, 44px);
+  }
+
+  .px-margin-edge {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .py-section-gap {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+}

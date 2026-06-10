@@ -1,0 +1,7 @@
+node_modules/
+outputs/
+pdf_pages/
+*.zip
+Image *.png
+Image *.markdown
+*.log

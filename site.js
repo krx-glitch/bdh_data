@@ -705,16 +705,19 @@
     hardenExternalLinks();
     setupAdmissionsPrefill();
     setupModalEscape();
-    setupFluidMotion();
 
-    // New motion graphic systems
+    const isCompactScreen = window.matchMedia('(max-width: 767px)').matches;
+    if (!isCompactScreen) setupFluidMotion();
+
     setupScrollProgress();
-    setupParticleSystem();
-    setupParallaxScroll();
+    if (!isCompactScreen) {
+      setupParticleSystem();
+      setupParallaxScroll();
+      injectMorphBlobs();
+      injectGlowOrbs();
+      setupMagneticHover();
+    }
     setupTextScramble();
-    injectMorphBlobs();
-    injectGlowOrbs();
-    setupMagneticHover();
     setupRippleEffect();
     setupAnimatedCounters();
     setupShimmerCards();

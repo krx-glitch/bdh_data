@@ -4,6 +4,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Instructors | Bhopal Dance House</title>
+<meta name="description" content="Meet the instructors and choreography team at Bhopal Dance House."/>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&amp;family=Montserrat:wght@600;700&amp;family=Inter:wght@400&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
@@ -107,26 +108,35 @@
             background: linear-gradient(90deg, #ff4b89 0%, #fc5b00 100%);
         }
     </style>
+<link rel="stylesheet" href="site.css?v=mobile-fixes-1"/>
 </head>
 <body class="bg-background text-on-background selection:bg-primary-container selection:text-on-primary-container overflow-x-hidden">
 <!-- TopNavBar -->
 <nav class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl dark:bg-surface/80 border-b border-primary/10">
 <div class="flex justify-between items-center px-margin-edge py-4 w-full max-w-container-max mx-auto">
 <a href="index.html" class="hover:scale-105 transition-transform duration-200 block flex items-center">
-    <img src="logo.png" alt="Bhopal Dance House Logo" class="h-10 w-auto" />
+    <img src="logo.webp" alt="Bhopal Dance House Logo" class="h-10 w-auto" />
 </a>
-<div class="hidden md:flex items-center gap-gutter">
+<div class="hidden md:flex gap-gutter items-center">
 <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors hover:scale-105 transition-transform duration-200" href="courses.html">Courses</a>
 <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors hover:scale-105 transition-transform duration-200" href="about.html">About</a>
-<a class="font-label-caps text-label-caps text-primary font-bold border-b-2 border-primary pb-1 hover:scale-105 transition-transform duration-200" href="instructors.html">Instructors</a>
+<a class="font-label-caps text-label-caps text-primary font-bold border-b-2 border-primary pb-1" href="instructors.html">Instructors</a>
 <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors hover:scale-105 transition-transform duration-200" href="timings.html">Timings</a>
-<a class="text-on-surface-variant hover:text-primary transition-colors font-label-caps text-label-caps hover:scale-105 transition-transform duration-200" href="contact.html">Location</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors hover:scale-105 transition-transform duration-200" href="contact.html">Location</a>
 </div>
-<button class="primary-gradient-btn text-on-primary-container font-label-caps text-label-caps px-6 py-3 rounded-full hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20 interactive-3d" onclick="window.location.href='admissions.html'">
-                Join a Class
-            </button>
-</div>
+<a class="hidden md:inline-flex bg-primary-container text-on-primary-container px-6 py-3 rounded-full font-label-caps text-label-caps hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20" href="admissions.html">Join a Class</a>
+<button id="mobile-menu-btn" class="md:hidden text-primary hover:text-on-surface transition-colors p-2 z-[60]" type="button" aria-label="Open navigation menu">
+<span class="material-symbols-outlined text-4xl" aria-hidden="true">menu</span>
+</button></div>
 </nav>
+<div id="mobile-menu" class="fixed inset-0 bg-surface/95 backdrop-blur-xl z-[45] flex flex-col gap-8 pt-28 px-margin-edge pb-8 transform translate-x-full transition-transform duration-300 md:hidden overflow-y-auto">
+<a class="font-h3 text-2xl text-on-surface hover:text-primary transition-colors" href="courses.html">Courses</a>
+<a class="font-h3 text-2xl text-on-surface hover:text-primary transition-colors" href="about.html">About</a>
+<a class="font-h3 text-2xl text-primary hover:text-primary transition-colors" href="instructors.html">Instructors</a>
+<a class="font-h3 text-2xl text-on-surface hover:text-primary transition-colors" href="timings.html">Timings</a>
+<a class="font-h3 text-2xl text-on-surface hover:text-primary transition-colors" href="contact.html">Location</a>
+<a class="bg-primary-container text-on-primary-container px-8 py-4 rounded-full font-label-caps text-label-caps text-center shadow-lg shadow-primary/20" href="admissions.html">Join a Class</a>
+</div>
 <main class="pt-32 pb-section-gap">
 <!-- Header Section -->
 <header class="px-margin-edge max-w-container-max mx-auto mb-20">
@@ -145,7 +155,7 @@
 <section class="px-margin-edge max-w-container-max mx-auto mb-section-gap">
 <div class="group relative overflow-hidden rounded-[2rem] glass-card flex flex-col md:flex-row items-center min-h-[600px] interactive-3d">
 <div class="w-full md:w-5/12 h-[500px] md:h-[600px] overflow-hidden relative">
-<img class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 grayscale hover:grayscale-0 transition-all" src="images/uday.png" alt="Uday - Lead Choreographer"/>
+<img class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 grayscale hover:grayscale-0 transition-all" src="images/uday.webp" alt="Uday - Lead Choreographer"/>
 <div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent md:bg-gradient-to-r md:from-transparent md:to-background/90"></div>
 </div>
 <div class="w-full md:w-7/12 p-10 md:p-20 flex flex-col justify-center relative z-10">
@@ -160,7 +170,7 @@
                 Uday is the visionary behind Bhopal Dance House. With a career dedicated to redefining movement in Central India, he brings a unique blend of urban energy and contemporary technicality to the studio. Known for his explosive style and precise musicality, Uday has mentored hundreds of dancers, helping them bridge the gap between passion and professional excellence. His classes are a high-octane journey into rhythm, discipline, and artistic discovery.
             </p>
 <div class="flex flex-wrap gap-8 items-center">
-<a href="https://www.instagram.com/bdh_sipa/" target="_blank" class="flex items-center gap-3 text-primary hover:text-primary-fixed transition-colors font-label-caps text-label-caps tracking-widest group/link">
+<a href="https://www.instagram.com/bdh_sipa/" target="_blank" class="flex items-center gap-3 text-primary hover:text-primary-fixed transition-colors font-label-caps text-label-caps tracking-widest group/link" rel="noopener noreferrer">
 <span class="material-symbols-outlined group-hover/link:rotate-12 transition-transform">link</span> 
                     FOLLOW ON INSTAGRAM
                 </a>
@@ -185,8 +195,8 @@
 <div class="grid grid-cols-2 md:grid-cols-2 gap-12">
 <div class="flex flex-col gap-4">
 <span class="font-label-caps text-label-caps text-primary">CONNECT</span>
-<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary-container transition-colors" href="https://www.instagram.com/bdh_sipa/" target="_blank">Instagram</a>
-<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary-container transition-colors" href="https://youtube.com/@bhopaldancehouse?si=Y6HUEhLH0Mel_WRp" target="_blank">YouTube</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary-container transition-colors" href="https://www.instagram.com/bdh_sipa/" target="_blank" rel="noopener noreferrer">Instagram</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary-container transition-colors" href="https://youtube.com/@bhopaldancehouse?si=Y6HUEhLH0Mel_WRp" target="_blank" rel="noopener noreferrer">YouTube</a>
 <a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary-container transition-colors" href="contact.html">Contact Us</a>
 </div>
 <div class="flex flex-col gap-4">
@@ -198,8 +208,9 @@
 </div>
 </div>
 <div class="px-margin-edge max-w-container-max mx-auto mt-16 pt-8 border-t border-outline-variant/10">
-<p class="font-body-md text-body-md text-on-surface-variant/60 text-center md:text-left">Â© 2024 Bhopal Dance House. Move with Passion.</p>
+<p class="font-body-md text-body-md text-on-surface-variant/60 text-center md:text-left">&copy; 2024 Bhopal Dance House. Move with Passion.</p>
 </div>
 </footer>
+<script src="site.js?v=mobile-fixes-1" defer></script>
 </body></html>
 
