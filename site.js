@@ -706,17 +706,15 @@
     setupAdmissionsPrefill();
     setupModalEscape();
 
-    const isCompactScreen = window.matchMedia('(max-width: 767px)').matches;
-    if (!isCompactScreen) setupFluidMotion();
+    setupFluidMotion();
 
     setupScrollProgress();
-    if (!isCompactScreen) {
-      setupParticleSystem();
-      setupParallaxScroll();
-      injectMorphBlobs();
-      injectGlowOrbs();
-      setupMagneticHover();
-    }
+    setupParticleSystem();
+    setupParallaxScroll();
+    injectMorphBlobs();
+    injectGlowOrbs();
+    setupMagneticHover();
+
     setupTextScramble();
     setupRippleEffect();
     setupAnimatedCounters();
