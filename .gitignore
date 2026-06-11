@@ -5,3 +5,10 @@ pdf_pages/
 Image *.png
 Image *.markdown
 *.log
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
